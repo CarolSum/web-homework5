@@ -1,0 +1,159 @@
+.content{
+	width: 800px;
+	margin:0 auto;
+	text-align: center;
+	font-family: 'Quicksand';
+}
+
+h1{
+	font-weight: normal;
+}
+#result{
+	height: 40px;
+	width: 800px;
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 0px;
+	transition: all 0.5s; 
+}
+
+#maze{
+	margin: 0 auto;
+	width: 600px;
+	height: 356px;
+	background-color: #eee;
+	cursor: pointer;
+}
+
+#wall1{
+	height: 49px;
+	width: 189px;
+	float: left;
+	border-top: 1px #000 solid;
+	border-left: 1px #000 solid;
+	background-color: #ddd;
+}
+
+#wall2{
+	float: left;
+	height: 48px;
+	width: 220px;
+	border-top: 1px #000 solid;
+	border-bottom: 1px #000 solid;
+	background-color: #ddd;
+}
+
+#wall3{
+	float: left;
+	height: 49px;
+	width: 189px;
+	background-color: #ddd;
+	border-top: 1px #000 solid;
+	border-right: 1px #000 solid;
+}
+
+#wall4{
+	clear: left;
+	height: 199px;
+	width: 188px;
+	background-color: #ddd;
+	border-bottom: 1px #000 solid;
+	border-right: 1px #000 solid;
+	border-left: 1px #000 solid;
+	float: left;
+}
+
+#wall5{
+	float: right;
+	height: 199px;
+	width: 188px;
+	background-color: #ddd;
+	border-bottom: 1px #000 solid;
+	border-right: 1px #000 solid;
+	border-left: 1px #000 solid;
+}
+
+.middle{
+	clear: both;
+}
+
+#start, #end{
+	width: 50px;
+	height: 50px;
+	border: 1px #000 solid;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 25px;
+	line-height: 50px;
+}
+
+#start{
+	float: left;
+	background-color: #85fd86;	
+}
+
+#end{
+	float: right;
+	background-color: #8684ff;
+	cursor: default;
+}
+
+#wall6{
+	position: absolute;
+	height: 200px;
+	width: 98px;
+	top: 271px;
+	margin-left: 250px;
+	background-color: #ddd;
+	border-top: 1px #000 solid;
+	border-right: 1px #000 solid;
+	border-left: 1px #000 solid;
+}
+
+#wall7{
+	clear: both;
+	height: 48px;
+	width: 249px;
+	float: left;
+	border-top: 1px #000 solid;
+	border-left: 1px #000 solid;
+	border-bottom: 1px #000 solid;
+	background-color: #ddd;
+}
+
+#wall8{
+	float: left;
+	height: 49px;
+	width: 100px;
+	border-bottom: 1px #000 solid;
+	background-color: #ddd;
+}
+
+#wall9{
+	float: left;
+	height: 48px;
+	width: 249px;
+	background-color: #ddd;
+	border-top: 1px #000 solid;
+	border-bottom: 1px #000 solid;
+	border-right: 1px #000 solid;
+}
+
+.barrier{
+	cursor: default;
+}
+
+#ps{
+	margin-top: 20px;
+	width: 700px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#wall{
+	margin: 0 auto;
+	width: 100px;
+	height: 30px;
+	background-color: #ddd;
+	border: 1px #000 solid;
+}
